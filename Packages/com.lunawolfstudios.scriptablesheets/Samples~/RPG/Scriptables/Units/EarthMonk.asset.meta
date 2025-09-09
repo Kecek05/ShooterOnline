@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c70ce0b9e9926c3459d484fea9a357a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/EarthMonk.asset
+  uploadId: 779237

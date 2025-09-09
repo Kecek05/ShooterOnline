@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3d706a65632dd3041952bb5c61225d0c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Scanning/ScanOption.cs
+  uploadId: 779237

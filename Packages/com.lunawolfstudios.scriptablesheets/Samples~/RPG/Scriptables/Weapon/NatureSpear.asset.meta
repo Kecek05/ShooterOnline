@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edea04d7195228b42be663138f6ed6ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Weapon/NatureSpear.asset
+  uploadId: 779237

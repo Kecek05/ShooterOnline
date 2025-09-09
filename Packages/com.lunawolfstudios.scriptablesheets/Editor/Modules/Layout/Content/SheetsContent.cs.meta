@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1649eed5af92216439d4a93b54e79e87
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Layout/Content/SheetsContent.cs
+  uploadId: 779237

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b333cd1a7c5900a4a9faa4c0e83ce162
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/Scripts/IMeasurableEntity.cs
+  uploadId: 779237

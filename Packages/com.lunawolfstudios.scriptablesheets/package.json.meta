@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb76f9de67e8f784589ea1254cb377eb
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/package.json
+  uploadId: 779237

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: fb2690491bc54d878db6c7d893729727
+timeCreated: 1754596397
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/AhoCorasick.cs
+  uploadId: 786762

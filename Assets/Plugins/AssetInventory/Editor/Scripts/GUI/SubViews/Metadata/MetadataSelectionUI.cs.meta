@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 9157b50ba94e4e418b29a03e63fa060b
+timeCreated: 1733828560
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/SubViews/Metadata/MetadataSelectionUI.cs
+  uploadId: 786762

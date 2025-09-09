@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 07224161ce7aed74ca00197f87183798
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Shared/Utilities/StringUtility.cs
+  uploadId: 779237

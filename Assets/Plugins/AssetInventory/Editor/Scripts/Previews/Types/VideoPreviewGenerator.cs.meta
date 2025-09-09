@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 8d5a3d6be96644378d635366c9819b42
+timeCreated: 1728887250
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Previews/Types/VideoPreviewGenerator.cs
+  uploadId: 786762

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b438b7fc012b45dd94595259894e321b
+timeCreated: 1741969461
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/ActionSteps/MessageDialogStep.cs
+  uploadId: 786762

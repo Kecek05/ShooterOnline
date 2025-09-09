@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6e26499b72ed4e739dd94b9e64fe07db
+timeCreated: 1749211348
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/ActionSteps/UninstallFeatureByNameStep.cs
+  uploadId: 786762

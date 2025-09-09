@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1c02ecca8ec8f646b53147f631b3ae7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Scroll
+    View.prefab
+  uploadId: 779237

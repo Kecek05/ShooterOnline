@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 05b16a311d25e1a4296c0ce15e6150d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Tables/Core/TableNavVisualState.cs
+  uploadId: 779237

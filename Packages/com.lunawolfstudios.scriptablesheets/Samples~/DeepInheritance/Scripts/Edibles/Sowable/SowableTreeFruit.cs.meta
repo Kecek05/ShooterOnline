@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 575c4cb4a380d9a43bcb9efd032d99bf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/Scripts/Edibles/Sowable/SowableTreeFruit.cs
+  uploadId: 779237

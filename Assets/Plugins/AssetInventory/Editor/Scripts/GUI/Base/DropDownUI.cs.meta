@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 01e8666bbe0c4ec39cf3aa4275f4b89b
+timeCreated: 1673447343
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/Base/DropDownUI.cs
+  uploadId: 786762

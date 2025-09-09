@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9b5c8154c93a1b848b88627e233356c1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/SharpCompress/URL.url
+  uploadId: 786762

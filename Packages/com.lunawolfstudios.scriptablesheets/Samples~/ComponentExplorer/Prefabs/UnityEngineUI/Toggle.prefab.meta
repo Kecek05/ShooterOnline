@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 249716c69e84a5048b4a7a63fde7084c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Toggle.prefab
+  uploadId: 779237

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 731ed6bc36e1465aa19fab3b5aadf541
+timeCreated: 1742403006
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/ActionSteps/RemoveCompilerArgumentStep.cs
+  uploadId: 786762

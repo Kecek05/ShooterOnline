@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5bc2516956749dc4ea322690b44d6b70
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/IceWitch.asset
+  uploadId: 779237

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2d8ed528dc8db884a8503c466eff1e57
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Editor/ComponentExplorerGenerator.cs
+  uploadId: 779237

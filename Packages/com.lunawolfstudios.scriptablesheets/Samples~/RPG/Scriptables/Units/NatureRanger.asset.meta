@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d42386920be4f643bfbe5646c08234c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/NatureRanger.asset
+  uploadId: 779237

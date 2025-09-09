@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 67aaafc696352864eb8a8028d1ec64b8
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318036
+  packageName: Hierarchy Focused Debug Console
+  packageVersion: 1.0.0
+  assetPath: Assets/Hierarchy Focused Debug Console/Editor/HierarchyFocusedDebugConsole.Editor.asmdef
+  uploadId: 750906

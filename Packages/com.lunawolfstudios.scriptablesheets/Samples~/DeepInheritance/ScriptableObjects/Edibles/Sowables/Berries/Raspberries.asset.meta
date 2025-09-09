@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b31a7e28bb6534d47a133adef534738f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Edibles/Sowables/Berries/Raspberries.asset
+  uploadId: 779237

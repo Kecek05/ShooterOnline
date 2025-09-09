@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d4cb87dc3fd957b46a630c0199058801
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318036
+  packageName: Hierarchy Focused Debug Console
+  packageVersion: 1.0.0
+  assetPath: Assets/Hierarchy Focused Debug Console/Editor/OptionsMenu.cs
+  uploadId: 750906

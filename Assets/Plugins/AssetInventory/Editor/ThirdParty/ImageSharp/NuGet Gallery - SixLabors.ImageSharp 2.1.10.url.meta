@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb7b7327815b87742b80f8c97fd92014
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/ImageSharp/NuGet Gallery - SixLabors.ImageSharp
+    2.1.10.url
+  uploadId: 786762

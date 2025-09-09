@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 544ead16617b4e539c9b15a48c01c033
+timeCreated: 1725866136
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Validators/MissingPreviewFilesValidator.cs
+  uploadId: 786762

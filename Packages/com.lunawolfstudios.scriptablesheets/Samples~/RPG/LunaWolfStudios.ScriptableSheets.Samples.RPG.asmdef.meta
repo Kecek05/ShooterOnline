@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 964988bab3005d04ca4e9f5169fb7017
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/LunaWolfStudios.ScriptableSheets.Samples.RPG.asmdef
+  uploadId: 779237

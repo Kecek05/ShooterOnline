@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f2115855a57b844fb6a63fc2bb7e8ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/MysticalElf.asset
+  uploadId: 779237

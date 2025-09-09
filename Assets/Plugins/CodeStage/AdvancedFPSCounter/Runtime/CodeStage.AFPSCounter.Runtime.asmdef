@@ -1,0 +1,27 @@
+{
+    "name": "CodeStage.AFPSCounter.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "AFPS_INPUT_SYSTEM"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.14",
+            "define": "AFPS_INPUT_SYSTEM_1_14_OR_NEWER"
+        }
+    ],
+    "noEngineReferences": false
+}

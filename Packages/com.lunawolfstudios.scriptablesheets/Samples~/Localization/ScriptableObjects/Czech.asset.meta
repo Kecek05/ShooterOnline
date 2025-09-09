@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6eca5c1c0bf3de4fac09e99d1c65316
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/Localization/ScriptableObjects/Czech.asset
+  uploadId: 779237

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab7b72987a5972a47ab6cb0d31b9466d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Tutorials/Search and Filter/10-BasicSyntax.asset
+  uploadId: 786762

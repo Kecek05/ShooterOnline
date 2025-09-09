@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b3c100dec7a86fd4d91de84eab2a4884
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Weapon/DarkAxe.asset
+  uploadId: 779237

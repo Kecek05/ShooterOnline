@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0521b686634658644899f221a403f85f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Legacy/InputField
+    (Legacy).prefab
+  uploadId: 779237

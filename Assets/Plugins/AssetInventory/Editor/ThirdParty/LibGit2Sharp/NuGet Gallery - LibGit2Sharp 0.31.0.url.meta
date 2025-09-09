@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 543d8712d7a210642a8676c0e7c26c43
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/LibGit2Sharp/NuGet Gallery -
+    LibGit2Sharp 0.31.0.url
+  uploadId: 786762

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1385655cc89eb77448bdcf15d380d798
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/README.md
+  uploadId: 779237

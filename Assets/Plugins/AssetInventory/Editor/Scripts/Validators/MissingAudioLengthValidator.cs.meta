@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: bc0b04f159cb4df3b185f127e4190ce6
+timeCreated: 1712322293
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Validators/MissingAudioLengthValidator.cs
+  uploadId: 786762

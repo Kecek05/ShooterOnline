@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3bbc7cfcccbf2404d8a112a28ba57746
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/LightningRogue.asset
+  uploadId: 779237

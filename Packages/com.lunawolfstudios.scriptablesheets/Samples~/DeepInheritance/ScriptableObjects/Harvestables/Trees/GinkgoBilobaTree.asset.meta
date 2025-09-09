@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dee82475357787640aaa6295116ccff7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Harvestables/Trees/GinkgoBilobaTree.asset
+  uploadId: 779237

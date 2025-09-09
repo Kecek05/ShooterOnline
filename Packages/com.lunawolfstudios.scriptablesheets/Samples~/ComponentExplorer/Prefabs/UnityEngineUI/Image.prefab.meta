@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 120a0265928844d40a11edec3c7b2807
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Image.prefab
+  uploadId: 779237

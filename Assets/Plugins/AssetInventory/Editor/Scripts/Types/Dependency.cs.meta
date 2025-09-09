@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7adbe3d019a146d6881470da46c6ed10
+timeCreated: 1724751842
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/Dependency.cs
+  uploadId: 786762

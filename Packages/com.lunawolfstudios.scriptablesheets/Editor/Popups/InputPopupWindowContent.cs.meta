@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0819559f90d9a7341b4793dfa60600ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Popups/InputPopupWindowContent.cs
+  uploadId: 779237

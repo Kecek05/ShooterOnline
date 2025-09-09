@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea38137ff79b3bf42a1ca5b0d94f0ada
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Harvestables/Trees/DatePalmTree.asset
+  uploadId: 779237

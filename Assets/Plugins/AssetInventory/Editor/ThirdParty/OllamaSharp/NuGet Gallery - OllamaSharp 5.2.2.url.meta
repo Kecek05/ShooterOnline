@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c71057eb312b6da42bd80665170cd6de
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/OllamaSharp/NuGet Gallery -
+    OllamaSharp 5.2.2.url
+  uploadId: 786762

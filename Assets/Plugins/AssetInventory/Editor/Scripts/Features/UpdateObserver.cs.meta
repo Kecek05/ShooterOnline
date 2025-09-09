@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 39d19e840bb74c1282964dbbfa405abe
+timeCreated: 1709371163
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/UpdateObserver.cs
+  uploadId: 786762

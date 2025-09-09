@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1210ac64940da040b36608801490d3b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Tutorials/Search and Filter/25-SaveSearch.asset
+  uploadId: 786762

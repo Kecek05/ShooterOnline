@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5151db5538b360045a3284891ddb882d
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/LunaWolfStudios.ScriptableSheets.Samples.DeepInheritance.asmdef
+  uploadId: 779237

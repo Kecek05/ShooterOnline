@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d43a6ce19b7622a4987fdd9daabf20f2
+timeCreated: 1635192918
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/EditorAudioUtils/Scripts/Editor/AudioUtilMethodWrapper.cs
+  uploadId: 786762

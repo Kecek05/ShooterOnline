@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2507de187d374c74eaa4990e870c2971
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/Microsoft AI/NuGet Gallery -
+    System.Text.Encodings.Web 9.0.5.url
+  uploadId: 786762

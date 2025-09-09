@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 850ceebec04002f4cbc7d657fa8f721e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Weapon/LightningSword.asset
+  uploadId: 779237

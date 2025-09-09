@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ddc85430fc4aa074cb71d542f13889a4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Canvas.prefab
+  uploadId: 779237

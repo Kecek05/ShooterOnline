@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6d2c66fd171c47858f6b6a96cb1bde6e
+timeCreated: 1715021177
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Importers/CaptionCreator.cs
+  uploadId: 786762

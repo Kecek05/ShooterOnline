@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d87e89fd98d54bb29acdfc0f02c0bcd5
+timeCreated: 1740604300
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/SubViews/DBLocationUI.cs
+  uploadId: 786762

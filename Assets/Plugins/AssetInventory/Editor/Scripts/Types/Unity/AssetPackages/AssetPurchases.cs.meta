@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: c610f30270414acf8c0f88246e6c77c1
+timeCreated: 1657812364
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/Unity/AssetPackages/AssetPurchases.cs
+  uploadId: 786762

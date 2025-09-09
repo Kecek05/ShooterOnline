@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9f8a5e57c17307d4c8da0c62719f14d8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/Prefabs/SamplePrefab1.prefab
+  uploadId: 779237

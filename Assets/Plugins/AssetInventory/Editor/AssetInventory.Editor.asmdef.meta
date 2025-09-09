@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6f5cf4676c89ad64daa709775fe0e85d
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/AssetInventory.Editor.asmdef
+  uploadId: 786762

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0546538c263e78844a6e9a0940dea4d9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/Scriban/NuGet Gallery - Scriban
+    5.12.1.url
+  uploadId: 786762

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 01e91bc22891d564cb9151a999f442df
+timeCreated: 1634989771
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/EditorAudioUtils/Scripts/Editor/EditorUtilities.cs
+  uploadId: 786762

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d1a7524b1350cd54f81ee0de66091ff6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/SQLite-Net/AssemblyInfo.cs
+  uploadId: 786762

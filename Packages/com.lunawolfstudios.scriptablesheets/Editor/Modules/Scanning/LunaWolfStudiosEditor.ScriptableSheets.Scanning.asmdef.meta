@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0442c8337274c4247bf01f0da6282230
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Scanning/LunaWolfStudiosEditor.ScriptableSheets.Scanning.asmdef
+  uploadId: 779237

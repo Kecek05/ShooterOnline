@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: fb1d0192538b4cfca3e6598b9f757b8e
+timeCreated: 1659120612
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/DB/TagAssignment.cs
+  uploadId: 786762

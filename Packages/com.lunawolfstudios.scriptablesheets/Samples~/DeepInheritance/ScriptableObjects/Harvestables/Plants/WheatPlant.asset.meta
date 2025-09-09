@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59bb9cf4dbd27d948a6836c29d4fdc7f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Harvestables/Plants/WheatPlant.asset
+  uploadId: 779237

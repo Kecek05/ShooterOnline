@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a84c5947e31ead848b9c7a60fbeecd4b
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/CHANGELOG.md
+  uploadId: 779237

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56285206a15831345af388e5c34a0228
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Prefabs/RPGPrefab2.prefab
+  uploadId: 779237

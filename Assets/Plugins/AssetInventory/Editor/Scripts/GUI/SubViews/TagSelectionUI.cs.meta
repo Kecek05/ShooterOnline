@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ff1081e957234431b1e7a241fb516fa2
+timeCreated: 1660592412
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/SubViews/TagSelectionUI.cs
+  uploadId: 786762

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8dc3ecf958d50ad48a21858c7eb28cfd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Weapon/PoisonHammer.asset
+  uploadId: 779237

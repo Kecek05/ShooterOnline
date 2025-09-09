@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e1bc5f034f81c174eb077b01e6141749
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Weapon/FireDagger.asset
+  uploadId: 779237

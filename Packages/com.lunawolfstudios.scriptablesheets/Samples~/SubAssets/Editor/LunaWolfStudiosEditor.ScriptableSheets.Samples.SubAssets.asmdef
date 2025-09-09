@@ -1,0 +1,18 @@
+{
+    "name": "LunaWolfStudiosEditor.ScriptableSheets.Samples.SubAssets",
+    "rootNamespace": "LunaWolfStudiosEditor.ScriptableSheets.Samples.SubAssets",
+    "references": [
+        "GUID:d49571fccb860614e952a061794f07b2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

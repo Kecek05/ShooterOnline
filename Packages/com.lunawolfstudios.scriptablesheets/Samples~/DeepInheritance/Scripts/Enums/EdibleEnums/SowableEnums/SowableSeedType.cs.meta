@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4cc3207fd0411b448b8c29c934d61232
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/Scripts/Enums/EdibleEnums/SowableEnums/SowableSeedType.cs
+  uploadId: 779237

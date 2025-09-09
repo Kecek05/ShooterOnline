@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a4997624a1e2499da3cef1876a3d3bb3
+timeCreated: 1738255099
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/PathComparer.cs
+  uploadId: 786762

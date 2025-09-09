@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 369d7cd0c5aff9d4eb42dcc6cc7ef3ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Tables/Settings/FlatFileFormatSettings.cs
+  uploadId: 779237

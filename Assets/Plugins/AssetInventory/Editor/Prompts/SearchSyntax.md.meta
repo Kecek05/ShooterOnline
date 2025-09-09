@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c9a9006255258574d9f2fe0f1fd746f6
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Prompts/SearchSyntax.md
+  uploadId: 786762

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 420c7272311b1f441b1b6bd131cea2a5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Harvestables/Trees/OakTree.asset
+  uploadId: 779237

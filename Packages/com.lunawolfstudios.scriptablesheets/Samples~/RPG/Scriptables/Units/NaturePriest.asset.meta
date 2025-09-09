@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c3860d0b457bbc4fb7f5510c4eb3352
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/NaturePriest.asset
+  uploadId: 779237

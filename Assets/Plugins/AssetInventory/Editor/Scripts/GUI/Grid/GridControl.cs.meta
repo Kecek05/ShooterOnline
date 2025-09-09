@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d9ee64c3e4bb413f86173d0c8e5db31a
+timeCreated: 1715257535
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/Grid/GridControl.cs
+  uploadId: 786762

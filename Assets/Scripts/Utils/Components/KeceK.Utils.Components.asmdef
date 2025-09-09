@@ -1,0 +1,16 @@
+{
+    "name": "KeceK.Utils.Components",
+    "rootNamespace": "KeceK.Utils.Components",
+    "references": [
+        "GUID:839922d73aedb594bbf401cfabd4ab73"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ad163ea1e93742fd8541befc268fd08b
+timeCreated: 1714464604
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/SubViews/SampleSelectionUI.cs
+  uploadId: 786762

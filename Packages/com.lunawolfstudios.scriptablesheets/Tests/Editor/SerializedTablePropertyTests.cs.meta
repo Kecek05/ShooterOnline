@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cfc521a8a6591d94eb8d2319ab22d260
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Tests/Editor/SerializedTablePropertyTests.cs
+  uploadId: 779237

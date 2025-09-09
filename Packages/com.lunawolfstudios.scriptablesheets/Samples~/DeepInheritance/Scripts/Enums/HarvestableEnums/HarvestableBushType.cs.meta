@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 15c81ffc0b87e3146ad252fbd2cb42e7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/Scripts/Enums/HarvestableEnums/HarvestableBushType.cs
+  uploadId: 779237

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: eac9cfae529d4aadb281bd76b9d421e1
+timeCreated: 1742239118
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/ActionSteps/TMPStep.cs
+  uploadId: 786762

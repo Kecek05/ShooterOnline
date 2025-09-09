@@ -1,0 +1,14 @@
+{
+    "name": "LunaWolfStudios.ScriptableSheets.Samples.SubAssets",
+    "rootNamespace": "LunaWolfStudios.ScriptableSheets.Samples.SubAssets",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

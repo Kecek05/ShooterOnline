@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 51260d6aa88943409dca61b987821aa7
+timeCreated: 1739485496
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/Templates/TemplateExportSettings.cs
+  uploadId: 786762

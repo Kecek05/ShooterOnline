@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5d5c6b2ede5b1a7488bddf517a0c57da
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Modules/Tables/Settings/JsonSerializationFormat.cs
+  uploadId: 779237

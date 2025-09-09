@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 608860d746884d4b83c6b11e4cd21ccc
+timeCreated: 1741902903
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/ActionSteps/DebugLogStep.cs
+  uploadId: 786762

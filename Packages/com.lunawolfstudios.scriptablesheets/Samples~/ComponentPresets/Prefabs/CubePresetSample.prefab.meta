@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7fe734e8fec00134d939c3987e43857d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentPresets/Prefabs/CubePresetSample.prefab
+  uploadId: 779237

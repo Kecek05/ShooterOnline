@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8a9d3ca44df4ad544a83bb0b3372c7ae
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Templates/HTMLStatic.zip.bytes
+  uploadId: 786762

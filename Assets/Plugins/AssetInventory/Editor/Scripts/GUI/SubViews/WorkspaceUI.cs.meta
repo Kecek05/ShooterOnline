@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 04965d9c4a2448f2b7e3a5d8ee30842c
+timeCreated: 1752001644
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/SubViews/WorkspaceUI.cs
+  uploadId: 786762

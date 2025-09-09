@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: fd073d86c8544b07a6d3b15cee02ca38
+timeCreated: 1741950320
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/ActionSteps/CopyFileStep.cs
+  uploadId: 786762

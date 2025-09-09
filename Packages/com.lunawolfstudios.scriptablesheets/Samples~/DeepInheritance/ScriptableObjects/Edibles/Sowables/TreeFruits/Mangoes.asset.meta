@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0d3c85674a8a8fa4aa1b83973b9d1951
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Edibles/Sowables/TreeFruits/Mangoes.asset
+  uploadId: 779237

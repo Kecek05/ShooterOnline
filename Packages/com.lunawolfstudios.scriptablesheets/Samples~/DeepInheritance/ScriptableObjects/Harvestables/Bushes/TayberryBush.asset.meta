@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8d4be4f0a9777f44f968c1937535c64e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Harvestables/Bushes/TayberryBush.asset
+  uploadId: 779237

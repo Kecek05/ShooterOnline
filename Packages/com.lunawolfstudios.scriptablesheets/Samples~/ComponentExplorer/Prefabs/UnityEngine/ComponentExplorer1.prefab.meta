@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba9d78bdb74ad584286a80982c22e860
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngine/ComponentExplorer1.prefab
+  uploadId: 779237

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 49b9397c3a9f4cf29acba8b1e542627f
+timeCreated: 1749156207
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/ImageUtils+Windows.cs
+  uploadId: 786762

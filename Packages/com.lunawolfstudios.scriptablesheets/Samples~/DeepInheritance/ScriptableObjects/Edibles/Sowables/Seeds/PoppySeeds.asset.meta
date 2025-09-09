@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9aab3f8e43fd89942809c15fb9f7a98b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Edibles/Sowables/Seeds/PoppySeeds.asset
+  uploadId: 779237

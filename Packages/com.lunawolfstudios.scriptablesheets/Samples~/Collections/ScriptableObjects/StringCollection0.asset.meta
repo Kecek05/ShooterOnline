@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a19ced0ce7c016146bcadaa6b19a6d57
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/Collections/ScriptableObjects/StringCollection0.asset
+  uploadId: 779237

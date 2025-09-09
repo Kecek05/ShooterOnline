@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2713839e15a137a4097d39e7d6bc717c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Edibles/Sowables/Berries/Cranberries.asset
+  uploadId: 779237

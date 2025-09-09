@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f270fb0df749fb147ba1474b422e4a28
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Legacy/Text
+    (Legacy).prefab
+  uploadId: 779237

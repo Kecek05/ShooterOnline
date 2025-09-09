@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 75605961bd090da4cbfd9d1edf889224
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/LibGit2Sharp/libgit2-libgit2sharp.url
+  uploadId: 786762

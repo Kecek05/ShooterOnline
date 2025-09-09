@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8bfdde4a860c2504d9725f61468f02b3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/SubAssets/ScriptableObjects/ColorThemes/DarkColorTheme.asset
+  uploadId: 779237

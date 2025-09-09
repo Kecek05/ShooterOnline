@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46040f47c8cb60c449bf505963cfc482
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Tutorials/Additional Folders/5-StartPage.asset
+  uploadId: 786762

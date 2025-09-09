@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 932febb3121c6be4cadb3f1a6dc1aa6f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/DeepInheritance/ScriptableObjects/Edibles/Sowables/Nuts/Hazelnuts.asset
+  uploadId: 779237

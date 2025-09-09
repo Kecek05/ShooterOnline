@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3847430764824580315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0171205cedab781438198c07cbfd72fe, type: 3}
+  m_Name: ForegroundColors
+  m_EditorClassIdentifier: 
+  m_DefaultColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BaseForegroundColor: {r: 0.03137255, g: 0.5882353, b: 0.7294118, a: 1}
+  m_ForegroundGlowColor: {r: 0.17254902, g: 0.44705886, b: 0.6862745, a: 1}
+  m_ForegroundGlowIntensity: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acfe62b9332c88642be60a17c8e1b983, type: 3}
+  m_Name: CoolColorTheme
+  m_EditorClassIdentifier: 
+  m_Description: This is a cool color theme.
+  m_BackgroundColor: {fileID: 7662476514618133719}
+  m_ForegroundColor: {fileID: -3847430764824580315}
+  m_TextColor: {fileID: 3327913420341115615}
+--- !u!114 &3327913420341115615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c9a60b301aa6d4699f848dc8a5195f, type: 3}
+  m_Name: TextColors
+  m_EditorClassIdentifier: 
+  m_DefaultColor: {r: 0, g: 0, b: 0, a: 1}
+  m_InnerTextColor: {r: 0.27058825, g: 0.30980393, b: 0.6, a: 1}
+  m_OutlineTextColor: {r: 0.43137258, g: 0.22352943, b: 0.5411765, a: 1}
+--- !u!114 &7662476514618133719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a468eb6152149a947b4b37aa83131bd9, type: 3}
+  m_Name: BackgroundColors
+  m_EditorClassIdentifier: 
+  m_DefaultColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BaseBackgroundColor: {r: 0.54509807, g: 0.73333335, b: 0.24705884, a: 1}
+  m_BackgroundGlowColor: {r: 0, g: 0.5529412, b: 0.35686275, a: 1}
+  m_BackgroundGlowIntensity: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a83d3ac48f75e3742a5f69f09ee43809
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Examples/Scenes/Instructions.unity
+  uploadId: 786762

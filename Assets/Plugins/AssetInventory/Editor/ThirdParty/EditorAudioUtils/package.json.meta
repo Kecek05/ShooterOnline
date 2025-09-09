@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a9cf2ad9f0c81424daf877b3993040a1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/EditorAudioUtils/package.json
+  uploadId: 786762

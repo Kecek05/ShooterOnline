@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: acc89d1f8f34a2d438605591a2151c00
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Tutorials/Additional Folders/Additional Folders.asset
+  uploadId: 786762

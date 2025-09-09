@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d134a6b3da3e4c3981096527aba68cb2
+timeCreated: 1712323995
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Validators/OrphanedPreviewFilesValidator.cs
+  uploadId: 786762

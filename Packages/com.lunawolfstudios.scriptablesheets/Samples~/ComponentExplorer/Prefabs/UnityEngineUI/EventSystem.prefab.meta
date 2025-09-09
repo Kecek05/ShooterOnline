@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: da9cbe8fafe15b6409d145399a2cce26
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/EventSystem.prefab
+  uploadId: 779237

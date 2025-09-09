@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f434373d9053cd4faebfa2daa516fdd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngineUI/Legacy/Button
+    (Legacy).prefab
+  uploadId: 779237

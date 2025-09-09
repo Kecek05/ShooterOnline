@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d49571fccb860614e952a061794f07b2
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/SubAssets/LunaWolfStudios.ScriptableSheets.Samples.SubAssets.asmdef
+  uploadId: 779237

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a78149ce596d4d2c9545991fef43b774
+timeCreated: 1745767865
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Validators/DeletedAssetFilesValidator.cs
+  uploadId: 786762

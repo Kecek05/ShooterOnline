@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 74ba5ed9332e02843a6b48c610ad545e
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Editor/Popups/LunaWolfStudiosEditor.ScriptableSheets.Popups.asmdef
+  uploadId: 779237

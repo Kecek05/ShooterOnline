@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 40733d5f3d7f44c1845d385fc2e745af
+timeCreated: 1658149400
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/MetaProgress.cs
+  uploadId: 786762

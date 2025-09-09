@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 71be3891a9b6dfa488c17bf6ab2fe2dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/RPG/Scriptables/Units/EarthDruid.asset
+  uploadId: 779237

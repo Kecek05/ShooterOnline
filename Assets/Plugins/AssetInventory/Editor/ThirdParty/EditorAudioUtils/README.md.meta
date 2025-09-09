@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ce17bc3ef80543942aca7c651feca4c0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/EditorAudioUtils/README.md
+  uploadId: 786762

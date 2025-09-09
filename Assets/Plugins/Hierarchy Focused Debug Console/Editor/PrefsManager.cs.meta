@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 595687da40effe84296a354a2e09cbf0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318036
+  packageName: Hierarchy Focused Debug Console
+  packageVersion: 1.0.0
+  assetPath: Assets/Hierarchy Focused Debug Console/Editor/PrefsManager.cs
+  uploadId: 750906

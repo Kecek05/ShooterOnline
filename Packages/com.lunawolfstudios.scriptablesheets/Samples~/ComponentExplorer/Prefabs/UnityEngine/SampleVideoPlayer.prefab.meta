@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d99a48038d7f9ca42a0880f24b8ed917
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 284559
+  packageName: Scriptable Sheets
+  packageVersion: 1.7.2
+  assetPath: Packages/com.lunawolfstudios.scriptablesheets/Samples~/ComponentExplorer/Prefabs/UnityEngine/SampleVideoPlayer.prefab
+  uploadId: 779237

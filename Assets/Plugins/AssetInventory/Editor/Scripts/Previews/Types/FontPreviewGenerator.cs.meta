@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: b34930391ebd4e2dbd10c3591319a636
+timeCreated: 1728656785
+AssetOrigin:
+  serializedVersion: 1
+  productId: 308224
+  packageName: Asset Inventory 3
+  packageVersion: 3.3.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Previews/Types/FontPreviewGenerator.cs
+  uploadId: 786762

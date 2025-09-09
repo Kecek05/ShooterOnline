@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 55c0928ac3da2d34381ed60bc54bb200
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 318036
+  packageName: Hierarchy Focused Debug Console
+  packageVersion: 1.0.0
+  assetPath: Assets/Hierarchy Focused Debug Console/Editor/ConsoleReader.cs
+  uploadId: 750906
