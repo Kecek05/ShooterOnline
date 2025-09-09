@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 817ec93e1242ac7448ccdde9d35f76ee
+timeCreated: 1560681367
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Materials/Silencers.mat
+  uploadId: 772569

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: bed2472ac3eaaf346a7b2a1318157efa
+timeCreated: 1560630729
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Materials/Lighter.mat
+  uploadId: 772569

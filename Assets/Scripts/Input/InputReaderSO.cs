@@ -16,7 +16,6 @@ namespace KeceK.Input
                 _inputActions = new PlayerInputActions();
                 _inputActions.Player.SetCallbacks(this);
             }
-            _inputActions.Enable();
         }
         
         public void EnableInput() => _inputActions.Enable();

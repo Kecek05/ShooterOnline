@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 313071541389d794199ff93cdc42c7ae
+timeCreated: 1553426398
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Materials/Hands_09.mat
+  uploadId: 772569

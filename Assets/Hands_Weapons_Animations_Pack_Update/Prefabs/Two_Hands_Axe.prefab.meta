@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 84c474049c24851438853d84795bde09
+timeCreated: 1560631106
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Two_Hands_Axe.prefab
+  uploadId: 772569

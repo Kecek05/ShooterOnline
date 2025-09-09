@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e554efa7cb943574288ed114a1f4bcfb
+timeCreated: 1553426036
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Sniper_rifle_Sleeve.prefab
+  uploadId: 772569

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1999911194b787a40900dd05eb095816
+timeCreated: 1560678092
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Weapons_Details/Sight_03.prefab
+  uploadId: 772569

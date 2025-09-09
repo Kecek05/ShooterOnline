@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6483991a2fa866a46af5764d9354b0b2
+timeCreated: 1560673557
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Materials/Flame_Arrester.mat
+  uploadId: 772569

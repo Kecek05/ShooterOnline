@@ -1,7 +1,7 @@
 {
     "name": "Game",
     "rootNamespace": "KeceK.Game",
-    "references": ["GUID:a2e1c2fe752de03489a13f2b640ef385"],
+    "references": ["GUID:a2e1c2fe752de03489a13f2b640ef385","GUID:4516e82f5be13d94f9b1ee108b7d2655"],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

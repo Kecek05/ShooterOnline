@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 56178b0c1e3220247be8a2a4962b7906
+timeCreated: 1560673587
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Weapons_Details/Flame_Arrester_02.prefab
+  uploadId: 772569

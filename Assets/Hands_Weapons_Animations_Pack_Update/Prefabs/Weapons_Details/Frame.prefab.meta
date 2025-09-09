@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a4220e7c1f7952b498c3c504413a7f66
+timeCreated: 1560677709
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Weapons_Details/Frame.prefab
+  uploadId: 772569

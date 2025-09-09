@@ -60,7 +60,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!136 &6210465353705742217
 CapsuleCollider:
@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Game::KeceK.Game.CharacterMovement
   _inputReaderSO: {fileID: 11400000, guid: e3e93369b7a9759499b672f264ec75cc, type: 2}
+  _rigidbody: {fileID: 6952990419618199940}
+  _movementSettingsSO: {fileID: 11400000, guid: 7970abd67864a27488ac78c7bf444a01, type: 2}
 --- !u!1 &7402450261493729842
 GameObject:
   m_ObjectHideFlags: 0

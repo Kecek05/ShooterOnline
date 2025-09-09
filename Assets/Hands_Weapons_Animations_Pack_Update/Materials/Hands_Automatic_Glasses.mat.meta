@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6fbcdc914b722794e92565e8b5e9bcff
+timeCreated: 1553426398
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Materials/Hands_Automatic_Glasses.mat
+  uploadId: 772569
