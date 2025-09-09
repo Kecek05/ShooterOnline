@@ -33,7 +33,8 @@ namespace KeceK.Game
         private void HandleMovement()
         {
             Vector2 moveInput = _inputReaderSO.MoveInput;
-            Vector3 moveDirection = new Vector3(moveInput.x, 0, moveInput.y).normalized;
+            Vector3 inputDirection = new Vector3(moveInput.x, 0, moveInput.y).normalized;
+            Vector3 moveDirection = transform.TransformDirection(inputDirection);
 
             Vector3 targetVelocity = moveDirection * _movementSettingsSO.MaxSpeed;
             Vector3 velocityChange = targetVelocity - _rigidbody.linearVelocity;

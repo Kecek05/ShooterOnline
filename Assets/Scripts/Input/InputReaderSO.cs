@@ -7,6 +7,7 @@ namespace KeceK.Input
     public class InputReaderSO : ScriptableObject, PlayerInputActions.IPlayerActions
     {
         public Vector2 MoveInput => _inputActions.Player.Move.ReadValue<Vector2>();
+        public Vector2 LookInput => _inputActions.Player.Look.ReadValue<Vector2>();
         
         private PlayerInputActions _inputActions;
         private void OnEnable()
