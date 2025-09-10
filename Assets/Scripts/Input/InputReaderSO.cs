@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,8 @@ namespace KeceK.Input
     {
         public Vector2 MoveInput => _inputActions.Player.Move.ReadValue<Vector2>();
         public Vector2 LookInput => _inputActions.Player.Look.ReadValue<Vector2>();
+        
+        public event Action OnJumpPressed; 
         
         private PlayerInputActions _inputActions;
         private void OnEnable()
@@ -50,6 +53,7 @@ namespace KeceK.Input
         public void OnJump(InputAction.CallbackContext context)
         {
             //not implemented yet
+            OnJumpPressed?.Invoke();
         }
 
         public void OnPrevious(InputAction.CallbackContext context)

@@ -25,12 +25,7 @@ namespace KeceK.Game
             _inputReaderSO.DisableInput();
         }
         
-        private void FixedUpdate()
-        {
-            HandleMovement();
-        }
-        
-        private void HandleMovement()
+        public void HandleMovement()
         {
             Vector2 moveInput = _inputReaderSO.MoveInput;
             Vector3 inputDirection = new Vector3(moveInput.x, 0, moveInput.y).normalized;
