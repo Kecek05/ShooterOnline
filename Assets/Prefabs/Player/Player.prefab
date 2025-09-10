@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 3440605575474846895}
   - component: {fileID: 2174712124393500704}
   - component: {fileID: 3191641399016357495}
+  - component: {fileID: 8519996813016512435}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -184,6 +185,19 @@ MonoBehaviour:
   _groundCheck: {fileID: 2174712124393500704}
   _animator: {fileID: 8732944069484254990}
   _inputReaderSO: {fileID: 11400000, guid: e3e93369b7a9759499b672f264ec75cc, type: 2}
+--- !u!114 &8519996813016512435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4917375135763693003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a663b1dd0b42b843b383216b929062a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::KeceK.Game.PlayerStateMachineBrain
+  _playerManager: {fileID: 3191641399016357495}
 --- !u!1 &6257172372091337335
 GameObject:
   m_ObjectHideFlags: 0
