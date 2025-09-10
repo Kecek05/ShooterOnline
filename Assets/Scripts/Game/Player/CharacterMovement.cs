@@ -25,8 +25,16 @@ namespace KeceK.Game
             _inputReaderSO.DisableInput();
         }
         
+        //TODO Refactor Movement Code
         public void HandleMovement()
         {
+            if (_inputReaderSO.MoveInput == Vector2.zero)
+            {
+                //TODO : Add a deceleration curve to smoothly stop the player
+                _rigidbody.linearVelocity = Vector3.zero;
+                return;
+            }
+            
             Vector2 moveInput = _inputReaderSO.MoveInput;
             Vector3 inputDirection = new Vector3(moveInput.x, 0, moveInput.y).normalized;
             Vector3 moveDirection = transform.TransformDirection(inputDirection);

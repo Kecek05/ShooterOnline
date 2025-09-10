@@ -1,3 +1,4 @@
+using KeceK.Input;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
@@ -7,6 +8,8 @@ namespace KeceK.Game
     {
         [Title("References")]
         [SerializeField] [Required] private PlayerManager _playerManager;
+        [SerializeField] [Required] private InputReaderSO _inputReaderSO;
+        [SerializeField] [Required] private Rigidbody _rigidbody;
         
         private StateMachine _playerStateMachine;
         
@@ -37,8 +40,8 @@ namespace KeceK.Game
             var walkState = new WalkPlayerState(_playerManager, _playerManager.Animator);
             var jumpState = new JumpPlayerState(_playerManager, _playerManager.Animator);
             
-            // At(idleState, walkState, new FuncPredicate(() => _inputReaderSO.MoveInput != Vector2.zero));
-            // At(walkState, idleState, new FuncPredicate(() => _inputReaderSO.MoveInput == Vector2.zero));
+            At(idleState, walkState, new FuncPredicate(() => _inputReaderSO.MoveInput != Vector2.zero));
+            At(walkState, idleState, new FuncPredicate(() => _inputReaderSO.MoveInput == Vector2.zero && _rigidbody.linearVelocity == Vector3.zero));
             
             _playerStateMachine.SetState(idleState);
         }

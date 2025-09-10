@@ -198,6 +198,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Game::KeceK.Game.PlayerStateMachineBrain
   _playerManager: {fileID: 3191641399016357495}
+  _inputReaderSO: {fileID: 11400000, guid: e3e93369b7a9759499b672f264ec75cc, type: 2}
+  _rigidbody: {fileID: 6952990419618199940}
 --- !u!1 &6257172372091337335
 GameObject:
   m_ObjectHideFlags: 0

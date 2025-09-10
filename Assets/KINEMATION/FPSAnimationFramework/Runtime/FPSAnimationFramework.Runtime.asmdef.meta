@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d02e55938f9d33c4aa8e18466d48abf6
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238641
+  packageName: FPS Animation Framework
+  packageVersion: 4.8.3
+  assetPath: Assets/KINEMATION/FPSAnimationFramework/Runtime/FPSAnimationFramework.Runtime.asmdef
+  uploadId: 750623
