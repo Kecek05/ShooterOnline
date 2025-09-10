@@ -171,18 +171,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6738603010087052505, guid: 89b4e24157fc9eb48b1f8fb366ce13d0, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2388771858
-      objectReference: {fileID: 0}
-    - target: {fileID: 6738603010087052505, guid: 89b4e24157fc9eb48b1f8fb366ce13d0, type: 3}
-      propertyPath: SceneMigrationSynchronization
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6738603010087052505, guid: 89b4e24157fc9eb48b1f8fb366ce13d0, type: 3}
-      propertyPath: InScenePlacedSourceGlobalObjectIdHash
-      value: 4200325926
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -459,9 +447,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
-  field of view: 60.000004
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -488,7 +476,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.67, z: 0.1514}
+  m_LocalPosition: {x: 0, y: 1.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
