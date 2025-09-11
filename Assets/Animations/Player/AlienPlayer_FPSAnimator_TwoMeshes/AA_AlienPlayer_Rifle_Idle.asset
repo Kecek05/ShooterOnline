@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f5fc06806945df8a985b4b99c57863, type: 3}
   m_Name: AA_AlienPlayer_Rifle_Idle
   m_EditorClassIdentifier: FPSAnimationFramework.Runtime::KINEMATION.FPSAnimationFramework.Runtime.Playables.FPSAnimationAsset
-  rigAsset: {fileID: 11400000, guid: 1aa67ac0f2cb1a047913c58d32544b33, type: 2}
+  rigAsset: {fileID: 11400000, guid: b82d452b2c09e4b4189581377b96fc7c, type: 2}
   clip: {fileID: -203655887218126122, guid: 8230767c9bcb5484e8ba4420c3a9e7ae, type: 3}
   mask: {fileID: 0}
   overrideMask: {fileID: 0}
