@@ -67,7 +67,7 @@ namespace AssetInventory
             {
                 EditorGUILayout.Space();
                 EditorGUILayout.HelpBox("Data not yet ready", MessageType.Info);
-                if (GUILayout.Button("Reload Data", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT))) Init();
+                if (GUILayout.Button("Reload Data", UIStyles.mainButton, GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT))) Init();
                 return;
             }
 
@@ -215,7 +215,7 @@ namespace AssetInventory
             EditorGUILayout.BeginHorizontal();
             if (!_isRunning)
             {
-                if (GUILayout.Button("Create All Test Captions", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
+                if (GUILayout.Button("Create All Test Captions", UIStyles.mainButton, GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
                 {
                     _cts = new CancellationTokenSource();
                     _ = RunCaptionTestsAsync(_cts.Token);

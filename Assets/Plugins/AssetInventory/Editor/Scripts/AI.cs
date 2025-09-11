@@ -26,7 +26,7 @@ namespace AssetInventory
 {
     public static class AI
     {
-        public const string VERSION = "3.3.1";
+        public const string VERSION = "3.3.2";
         public const string DEFINE_SYMBOL = "ASSET_INVENTORY";
         public const string DEFINE_SYMBOL_OLLAMA = DEFINE_SYMBOL + "_OLLAMA";
         public const string DEFINE_SYMBOL_HIDE_AI = DEFINE_SYMBOL + "_HIDE_AI";
@@ -681,7 +681,7 @@ namespace AssetInventory
         {
             // check if currently being extracted
             if (_ongoingExtractions.ContainsKey(asset.Id)) return false;
-            
+
             if (asset.AssetSource == Asset.Source.Directory || asset.AssetSource == Asset.Source.RegistryPackage)
             {
                 if (assetFile != null) return File.Exists(assetFile.GetSourcePath(true));
@@ -752,7 +752,7 @@ namespace AssetInventory
                 await Task.Run(() => ExtractAsset(asset, assetFile, fileOnly, ct));
                 if (!Directory.Exists(targetPath)) return null;
             }
-            
+
             // race condition protection
             if (_ongoingExtractions.TryGetValue(asset.Id, out Task<string> process2)) await process2;
 
@@ -1663,6 +1663,7 @@ namespace AssetInventory
                     return AssetUtils.RemoveProjectRoot(targetPath);
                 }
 
+                // FIXME: this can (very seldomly) fail in parallel calls when the file is already in use, need some sort of retry or lock
                 File.Copy(sourcePath, targetPath, true);
 
                 string sourceMetaPath = sourcePath + ".meta";

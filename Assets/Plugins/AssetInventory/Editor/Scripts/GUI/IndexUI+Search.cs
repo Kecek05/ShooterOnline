@@ -1648,7 +1648,7 @@ namespace AssetInventory
                             }
                             else
                             {
-                                if (GUILayout.Button("Select", GUILayout.Height(40))) ExecuteSingleAction();
+                                if (GUILayout.Button("Select", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT))) ExecuteSingleAction();
                             }
                         }
                     }

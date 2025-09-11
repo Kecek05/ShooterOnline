@@ -84,16 +84,16 @@ namespace AssetInventory
 
             EditorGUILayout.Space();
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("Run All", UIStyles.mainButton, GUILayout.ExpandWidth(false), GUILayout.Height(40)))
+            if (GUILayout.Button("Run All", UIStyles.mainButton, GUILayout.ExpandWidth(false), GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
             {
                 ScanAll(false);
             }
-            if (GUILayout.Button("Run Only Fast Scans*", GUILayout.ExpandWidth(false), GUILayout.Height(40)))
+            if (GUILayout.Button("Run Only Fast Scans*", GUILayout.ExpandWidth(false), GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
             {
                 ScanAll(true);
             }
             EditorGUI.BeginDisabledGroup(_fixeableItems == 0);
-            if (GUILayout.Button("Fix All", GUILayout.ExpandWidth(false), GUILayout.Height(40)))
+            if (GUILayout.Button("Fix All", GUILayout.ExpandWidth(false), GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
             {
                 FixAll();
             }

@@ -9,7 +9,7 @@ AssetOrigin:
   serializedVersion: 1
   productId: 308224
   packageName: Asset Inventory 3
-  packageVersion: 3.3.1
-  assetPath: Assets/AssetInventory/Editor/ThirdParty/Microsoft AI/NuGet Gallery -
-    Microsoft.Extensions.AI.Ollama 9.5.0-preview.1.25265.7.url
-  uploadId: 786762
+  packageVersion: 3.3.2
+  assetPath: Assets/Plugins/AssetInventory/Editor/ThirdParty/Microsoft AI/NuGet Gallery
+    - Microsoft.Extensions.AI.Ollama 9.5.0-preview.1.25265.7.url
+  uploadId: 787856

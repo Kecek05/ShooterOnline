@@ -161,6 +161,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 308224
   packageName: Asset Inventory 3
-  packageVersion: 3.3.1
-  assetPath: Assets/AssetInventory/Tutorials/Search and Filter/Filters.png
-  uploadId: 786762
+  packageVersion: 3.3.2
+  assetPath: Assets/Plugins/AssetInventory/Tutorials/Search and Filter/Filters.png
+  uploadId: 787856

@@ -13,7 +13,6 @@ using SharpCompress.Common;
 using SharpCompress.Writers;
 using CompressionType = SharpCompress.Common.CompressionType;
 #endif
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using Debug = UnityEngine.Debug;
@@ -152,58 +151,6 @@ namespace AssetInventory
             return tempDirectoryPath;
         }
 
-        /*
-        public static async Task<List<string>> FindMatchesInBinaryFile(string filePath, List<string> searchStrings, int bufferSize = 1048576)
-        {
-            HashSet<string> foundMatches = new HashSet<string>();
-            byte[] buffer = new byte[bufferSize];
-
-            using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read, bufferSize, true))
-            {
-                List<Task> searchTasks = new List<Task>();
-                StringBuilder chunk = new StringBuilder();
-
-                try
-                {
-                    int bytesRead;
-                    while ((bytesRead = await fs.ReadAsync(buffer, 0, buffer.Length)) > 0)
-                    {
-                        chunk.Append(Encoding.UTF8.GetString(buffer, 0, bytesRead));
-
-                        string chunkContent = chunk.ToString();
-
-                        searchTasks.Add(Task.Run(() =>
-                        {
-                            Parallel.ForEach(searchStrings, searchString =>
-                            {
-                                if (chunkContent.IndexOf(searchString, StringComparison.Ordinal) >= 0)
-                                {
-                                    lock (foundMatches)
-                                    {
-                                        foundMatches.Add(searchString);
-                                    }
-                                }
-                            });
-                        }));
-
-                        if (chunk.Length > bufferSize * 2)
-                        {
-                            chunk.Remove(0, chunk.Length - bufferSize);
-                        }
-                    }
-                }
-                catch (Exception e)
-                {
-                    Debug.LogError($"Error reading binary file '{filePath}': {e.Message}");
-                }
-
-                await Task.WhenAll(searchTasks);
-            }
-
-            return foundMatches.ToList();
-        }
-        */
-
         public static async Task<List<string>> FindMatchesInBinaryFile(string filePath, IList<string> searchStrings, int bufferSize = 1 << 20)
         {
             int count = searchStrings.Count;
@@ -302,6 +249,32 @@ namespace AssetInventory
             return result;
         }
 
+        public static async Task<bool> TryCopyFile(string sourceFileName, string destFileName, bool overwrite, int retries = 5)
+        {
+            while (retries >= 0)
+            {
+                try
+                {
+                    File.Copy(sourceFileName, destFileName, overwrite);
+                    return true;
+                }
+                catch (Exception e)
+                {
+                    retries--;
+                    if (retries >= 0)
+                    {
+                        await Task.Delay(300);
+                    }
+                    else
+                    {
+                        Debug.LogError($"Could not copy file '{sourceFileName}' to '{destFileName}': {e.Message}");
+                    }
+                }
+            }
+
+            return false;
+        }
+
         public static bool TryDeleteFile(string path)
         {
             try
@@ -317,22 +290,103 @@ namespace AssetInventory
 
         public static async Task<bool> DeleteFileOrDirectory(string path, int retries = 3)
         {
-            bool success = false;
+            if (string.IsNullOrWhiteSpace(path)) return true;
+
+            string targetPath = ToLongPath(path);
+
             while (retries >= 0)
             {
                 try
                 {
-                    success = FileUtil.DeleteFileOrDirectory(path); // use Unity method to circumvent unauthorized access that can happen every now and then
-                    break;
+                    // Delete file
+                    if (File.Exists(targetPath))
+                    {
+                        try { File.SetAttributes(targetPath, FileAttributes.Normal); }
+                        catch
+                        { /* ignore */
+                        }
+                        File.Delete(targetPath);
+                        return true;
+                    }
+
+                    // Delete directory (recursive)
+                    if (Directory.Exists(targetPath))
+                    {
+                        ClearReadOnlyAttributes(targetPath);
+                        Directory.Delete(targetPath, true);
+                        return true;
+                    }
+
+                    // Path already gone
+                    return true;
+                }
+                catch (UnauthorizedAccessException)
+                {
+                    // Clear attributes and retry
+                    try
+                    {
+                        if (Directory.Exists(targetPath)) ClearReadOnlyAttributes(targetPath);
+                        if (File.Exists(targetPath)) File.SetAttributes(targetPath, FileAttributes.Normal);
+                    }
+                    catch
+                    { /* best effort */
+                    }
+
+                    retries--;
+                    if (retries >= 0) await Task.Delay(300);
+                }
+                catch (IOException)
+                {
+                    // Often due to file locks; wait and retry
+                    retries--;
+                    if (retries >= 0) await Task.Delay(300);
                 }
                 catch
                 {
-                    retries--;
-                    if (retries >= 0) await Task.Delay(200);
+                    // Do not swallow unexpected exceptions endlessly
+                    break;
                 }
             }
 
-            return success;
+            return !File.Exists(targetPath) && !Directory.Exists(targetPath);
+        }
+
+        private static void ClearReadOnlyAttributes(string directoryPath)
+        {
+            // Clear file attributes first
+            try
+            {
+                foreach (string file in Directory.EnumerateFiles(directoryPath, "*", SearchOption.AllDirectories))
+                {
+                    try { File.SetAttributes(file, FileAttributes.Normal); }
+                    catch
+                    { /* ignore */
+                    }
+                }
+            }
+            catch
+            { /* ignore */
+            }
+
+            // Clear directory attributes (including the root)
+            try
+            {
+                foreach (string dir in Directory.EnumerateDirectories(directoryPath, "*", SearchOption.AllDirectories))
+                {
+                    try { File.SetAttributes(dir, FileAttributes.Normal); }
+                    catch
+                    { /* ignore */
+                    }
+                }
+            }
+            catch
+            { /* ignore */
+            }
+
+            try { File.SetAttributes(directoryPath, FileAttributes.Normal); }
+            catch
+            { /* ignore */
+            }
         }
 
         // Regex version

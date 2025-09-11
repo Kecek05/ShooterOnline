@@ -22,8 +22,8 @@ namespace AssetInventory
 
         private static readonly string[] ScanDependencies =
         {
-            "prefab", "mat", "controller", "overridecontroller", "anim", "asset", "physicmaterial", "physicsmaterial", 
-            "sbs", "sbsar", "cubemap", "shader", "cginc", "hlsl", "shadergraph", "shadersubgraph", 
+            "prefab", "mat", "controller", "overridecontroller", "anim", "asset", "physicmaterial", "physicsmaterial",
+            "sbs", "sbsar", "cubemap", "shader", "cginc", "hlsl", "shadergraph", "shadersubgraph",
             "terrainlayer", "inputactions", "vfx", "vfxoperator", "unity", "preset"
         };
 
@@ -253,8 +253,14 @@ namespace AssetInventory
                 Directory.CreateDirectory(targetDir);
 
                 string targetFile = Path.Combine("Assets", AI.TEMP_FOLDER, Path.GetFileName(path));
-                File.Copy(path, targetFile, true);
-                AssetDatabase.Refresh(); 
+
+                // file can be locked, retry automatically
+                if (!await IOUtils.TryCopyFile(path, targetFile, true))
+                {
+                    info.DependencyState = DependencyStateOptions.Failed;
+                    return result;
+                }
+                AssetDatabase.Refresh();
 
 #if UNITY_2021_2_OR_NEWER
                 content = await File.ReadAllTextAsync(targetFile);

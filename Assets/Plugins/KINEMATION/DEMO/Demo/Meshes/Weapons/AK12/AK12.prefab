@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a38f36b54b84df3873b796d6728c637, type: 3}
   m_Name: 
   m_EditorClassIdentifier: FPSAnimationFramework.Runtime::KINEMATION.FPSAnimationFramework.Runtime.Core.FPSAnimatorEntity
-  animatorProfile: {fileID: 11400000, guid: 6b833ab7b880ecc4682cfaa80ed83464, type: 2}
+  animatorProfile: {fileID: 11400000, guid: 689c4aa19993e5941a2c5550bc31031c, type: 2}
   defaultAimPoint: {fileID: 8797619093476757880}
 --- !u!114 &3848949674234568314
 MonoBehaviour:

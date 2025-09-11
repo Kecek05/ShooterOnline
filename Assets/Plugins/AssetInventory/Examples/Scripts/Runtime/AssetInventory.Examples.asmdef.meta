@@ -9,6 +9,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 308224
   packageName: Asset Inventory 3
-  packageVersion: 3.3.1
-  assetPath: Assets/AssetInventory/Examples/Scripts/Runtime/AssetInventory.Examples.asmdef
-  uploadId: 786762
+  packageVersion: 3.3.2
+  assetPath: Assets/Plugins/AssetInventory/Examples/Scripts/Runtime/AssetInventory.Examples.asmdef
+  uploadId: 787856

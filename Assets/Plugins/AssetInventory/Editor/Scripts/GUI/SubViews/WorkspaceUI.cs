@@ -147,7 +147,7 @@ namespace AssetInventory
             // Action Buttons
             GUILayout.FlexibleSpace();
             EditorGUI.BeginDisabledGroup(string.IsNullOrWhiteSpace(_workspace.Name));
-            if (GUILayout.Button("Update", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
+            if (GUILayout.Button("Update", UIStyles.mainButton, GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
             {
                 Save();
                 Close();

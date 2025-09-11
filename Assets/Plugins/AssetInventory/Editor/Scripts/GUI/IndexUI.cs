@@ -509,7 +509,7 @@ namespace AssetInventory
             {
                 GUILayout.BeginHorizontal("box");
                 EditorGUILayout.HelpBox("UI customization mode is active. Define which elements should be visible by default (green) and which only in advanced mode (red) when using the eye icon or holding CTRL. Yellow sections can be moved up and down.", MessageType.Warning);
-                if (GUILayout.Button("Stop Customizing", GUILayout.ExpandWidth(false)))
+                if (GUILayout.Button("Stop Customizing", UIStyles.mainButton, GUILayout.ExpandWidth(false)))
                 {
                     AI.UICustomizationMode = false;
                 }

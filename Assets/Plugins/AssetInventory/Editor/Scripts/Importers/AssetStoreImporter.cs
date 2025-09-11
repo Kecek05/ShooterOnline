@@ -26,74 +26,88 @@ namespace AssetInventory
             MainCount = assets.results.Count;
             MainProgress = 1;
 
-            // store for later troubleshooting
-            File.WriteAllText(Path.Combine(AI.GetStorageFolder(), DIAG_PURCHASES), JsonConvert.SerializeObject(assets, Formatting.Indented));
-
             bool tagsChanged = false;
             try
             {
-                for (int i = 0; i < MainCount; i++)
+                // store for later troubleshooting
+                File.WriteAllText(Path.Combine(AI.GetStorageFolder(), DIAG_PURCHASES), JsonConvert.SerializeObject(assets, Formatting.Indented));
+
+                // Process in chunks of 500 for optimal performance and editor responsiveness
+                int chunkSize = 250;
+                for (int chunkStart = 0; chunkStart < MainCount; chunkStart += chunkSize)
                 {
-                    MainProgress = i + 1;
-                    MetaProgress.Report(ProgressId, i + 1, MainCount, string.Empty);
-                    if (i % 50 == 0) await Task.Yield(); // let editor breath
+                    int chunkEnd = Math.Min(chunkStart + chunkSize, MainCount);
+
+                    // Wrap each chunk in a database transaction for maximum performance
+                    DBAdapter.DB.RunInTransaction(() =>
+                    {
+                        for (int i = chunkStart; i < chunkEnd; i++)
+                        {
+                            MainProgress = i + 1;
+                            MetaProgress.Report(ProgressId, i + 1, MainCount, string.Empty);
+                            if (CancellationRequested) break;
+
+                            AssetPurchase purchase = assets.results[i];
+
+                            // update all known assets with that foreignId to support updating duplicate assets as well 
+                            List<Asset> existingAssets = DBAdapter.DB.Table<Asset>().Where(a => a.ForeignId == purchase.packageId).ToList();
+                            if (existingAssets.Count == 0 || existingAssets.Count(a => a.AssetSource == Asset.Source.AssetStorePackage || (a.AssetSource == Asset.Source.RegistryPackage && a.ForeignId > 0)) == 0)
+                            {
+                                // create new asset on-demand or if only available as custom asset so far
+                                Asset asset = purchase.ToAsset();
+                                asset.SafeName = purchase.CalculatedSafeName;
+                                if (AI.Config.excludeByDefault) asset.Exclude = true;
+                                if (AI.Config.extractByDefault) asset.KeepExtracted = true;
+                                if (AI.Config.captionByDefault) asset.UseAI = true;
+                                if (AI.Config.backupByDefault) asset.Backup = true;
+                                Persist(asset);
+                                existingAssets.Add(asset);
+                            }
+
+                            for (int i2 = 0; i2 < existingAssets.Count; i2++)
+                            {
+                                Asset asset = existingAssets[i2];
+
+                                // temporarily store guessed safe name to ensure locally indexed files are mapped correctly
+                                // will be overridden in detail run
+                                asset.DisplayName = purchase.displayName.Trim();
+                                asset.ForeignId = purchase.packageId;
+                                if (!string.IsNullOrEmpty(purchase.grantTime))
+                                {
+                                    if (DateTime.TryParse(purchase.grantTime, out DateTime result))
+                                    {
+                                        asset.PurchaseDate = result;
+                                    }
+                                }
+                                if (purchase.isHidden && AI.Config.excludeHidden) asset.Exclude = true;
+
+                                if (string.IsNullOrEmpty(asset.SafeName)) asset.SafeName = purchase.CalculatedSafeName;
+
+                                // override data with local truth in case header information exists
+                                if (File.Exists(asset.GetLocation(true)))
+                                {
+                                    AssetHeader header = UnityPackageImporter.ReadHeader(asset.GetLocation(true), true);
+                                    UnityPackageImporter.ApplyHeader(header, asset);
+                                }
+
+                                Persist(asset);
+
+                                // handle tags
+                                if (purchase.tagging != null)
+                                {
+                                    foreach (string tag in purchase.tagging)
+                                    {
+                                        if (tag.ToLowerInvariant() == "#bin") continue;
+                                        if (Tagging.AddAssignment(asset.Id, tag, TagAssignment.Target.Package, true)) tagsChanged = true;
+                                    }
+                                }
+                            }
+                        }
+                    });
+
+                    // Let the editor breathe after each chunk
+                    await Task.Yield();
                     if (CancellationRequested) break;
-
-                    AssetPurchase purchase = assets.results[i];
-
-                    // update all known assets with that foreignId to support updating duplicate assets as well 
-                    List<Asset> existingAssets = DBAdapter.DB.Table<Asset>().Where(a => a.ForeignId == purchase.packageId).ToList();
-                    if (existingAssets.Count == 0 || existingAssets.Count(a => a.AssetSource == Asset.Source.AssetStorePackage || (a.AssetSource == Asset.Source.RegistryPackage && a.ForeignId > 0)) == 0)
-                    {
-                        // create new asset on-demand or if only available as custom asset so far
-                        Asset asset = purchase.ToAsset();
-                        asset.SafeName = purchase.CalculatedSafeName;
-                        if (AI.Config.excludeByDefault) asset.Exclude = true;
-                        if (AI.Config.extractByDefault) asset.KeepExtracted = true;
-                        if (AI.Config.captionByDefault) asset.UseAI = true;
-                        if (AI.Config.backupByDefault) asset.Backup = true;
-                        Persist(asset);
-                        existingAssets.Add(asset);
-                    }
-
-                    for (int i2 = 0; i2 < existingAssets.Count; i2++)
-                    {
-                        Asset asset = existingAssets[i2];
-
-                        // temporarily store guessed safe name to ensure locally indexed files are mapped correctly
-                        // will be overridden in detail run
-                        asset.DisplayName = purchase.displayName.Trim();
-                        asset.ForeignId = purchase.packageId;
-                        if (!string.IsNullOrEmpty(purchase.grantTime))
-                        {
-                            if (DateTime.TryParse(purchase.grantTime, out DateTime result))
-                            {
-                                asset.PurchaseDate = result;
-                            }
-                        }
-                        if (purchase.isHidden && AI.Config.excludeHidden) asset.Exclude = true;
-
-                        if (string.IsNullOrEmpty(asset.SafeName)) asset.SafeName = purchase.CalculatedSafeName;
-
-                        // override data with local truth in case header information exists
-                        if (File.Exists(asset.GetLocation(true)))
-                        {
-                            AssetHeader header = UnityPackageImporter.ReadHeader(asset.GetLocation(true), true);
-                            UnityPackageImporter.ApplyHeader(header, asset);
-                        }
-
-                        Persist(asset);
-
-                        // handle tags
-                        if (purchase.tagging != null)
-                        {
-                            foreach (string tag in purchase.tagging)
-                            {
-                                if (tag.ToLowerInvariant() == "#bin") continue;
-                                if (Tagging.AddAssignment(asset.Id, tag, TagAssignment.Target.Package, true)) tagsChanged = true;
-                            }
-                        }
-                    }
                 }
             }
             catch (Exception e)

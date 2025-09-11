@@ -5,6 +5,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 308224
   packageName: Asset Inventory 3
-  packageVersion: 3.3.1
-  assetPath: Assets/AssetInventory/Editor/Scripts/GUI/SubViews/DBLocationUI.cs
-  uploadId: 786762
+  packageVersion: 3.3.2
+  assetPath: Assets/Plugins/AssetInventory/Editor/Scripts/GUI/SubViews/DBLocationUI.cs
+  uploadId: 787856

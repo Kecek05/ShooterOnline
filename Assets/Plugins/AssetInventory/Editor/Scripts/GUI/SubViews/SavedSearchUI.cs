@@ -86,7 +86,7 @@ namespace AssetInventory
 
             // Action Buttons
             GUILayout.FlexibleSpace();
-            if (GUILayout.Button("Update", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
+            if (GUILayout.Button("Update", UIStyles.mainButton, GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
             {
                 if (string.IsNullOrWhiteSpace(_savedSearch.Name) && string.IsNullOrWhiteSpace(_savedSearch.Icon))
                 {

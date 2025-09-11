@@ -25,7 +25,7 @@ namespace AssetInventory
         public const int TAG_OUTER_MARGIN = 20;
         public const string INDENT = "  ";
         public const int INDENT_WIDTH = 8;
-        public const float BIG_BUTTON_HEIGHT = 40f;
+        public const float BIG_BUTTON_HEIGHT = 30f;
 
         public static readonly string[] FolderTypes = {"Unity Packages", "Media Folder", "Archives", "Dev Packages"};
         public static readonly string[] MediaTypes = {"-All Media-", "-All Files-", string.Empty, "Audio", "Images", "Models", string.Empty, "-Custom File Pattern-"};

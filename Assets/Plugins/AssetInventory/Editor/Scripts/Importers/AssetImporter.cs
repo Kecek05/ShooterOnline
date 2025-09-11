@@ -63,7 +63,7 @@ namespace AssetInventory
 
             if (!info.IsDownloaded)
             {
-                Debug.LogError($"Downloading '{info}' failed. Continuing with next package.");
+                Debug.LogError($"Downloading '{info.GetRoot()}' failed. Continuing with next package.");
             }
 
             SubProgress = SubCount; // ensure 100% progress

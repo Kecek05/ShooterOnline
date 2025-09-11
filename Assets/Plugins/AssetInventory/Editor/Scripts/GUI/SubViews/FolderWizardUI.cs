@@ -171,8 +171,8 @@ namespace AssetInventory
 
             EditorGUILayout.Space();
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("Add", GUILayout.Height(40))) SaveSettings();
-            // if (GUILayout.Button("Refresh", GUILayout.Height(40), GUILayout.Width(80))) ParseFolder();
+            if (GUILayout.Button("Add", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT))) SaveSettings();
+            // if (GUILayout.Button("Refresh", GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT), GUILayout.Width(80))) ParseFolder();
             GUILayout.EndHorizontal();
 
             EditorGUI.EndDisabledGroup();

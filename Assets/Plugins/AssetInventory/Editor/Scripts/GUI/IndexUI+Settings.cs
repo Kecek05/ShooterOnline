@@ -1418,7 +1418,7 @@ namespace AssetInventory
                 }
                 else
                 {
-                    if (GUILayout.Button(UIStyles.Content("Run Actions", "Run all enabled actions in one go and perform all necessary updates."), UIStyles.mainButton, GUILayout.Height(40)))
+                    if (GUILayout.Button(UIStyles.Content("Run Actions", "Run all enabled actions in one go and perform all necessary updates."), UIStyles.mainButton, GUILayout.Height(UIStyles.BIG_BUTTON_HEIGHT)))
                     {
                         PerformFullUpdate();
                     }

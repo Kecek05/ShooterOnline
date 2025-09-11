@@ -9,6 +9,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 308224
   packageName: Asset Inventory 3
-  packageVersion: 3.3.1
-  assetPath: Assets/AssetInventory/Editor/ThirdParty/EditorAudioUtils/Scripts/Editor/AssetInventory.JD.EditorAudioUtils.Editor.asmdef
-  uploadId: 786762
+  packageVersion: 3.3.2
+  assetPath: Assets/Plugins/AssetInventory/Editor/ThirdParty/EditorAudioUtils/Scripts/Editor/AssetInventory.JD.EditorAudioUtils.Editor.asmdef
+  uploadId: 787856
