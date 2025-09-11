@@ -26,6 +26,8 @@ MonoBehaviour:
     - bfc9366001ab23849b3496c970dd9dee
     - 57024ce626f73f34c921dd699845e1d1
     - 4da766417f4b57449a5bfb8af2a3d338
+    - b7fc08ea4db5574419044a185c2a9ac0
+    - a5e50f51160e1024b83e42f02fc295fc
     values:
     - iconNameOrGuid: 
       colorIndex: 8
@@ -73,6 +75,14 @@ MonoBehaviour:
       isColorRecursive: 0
     - iconNameOrGuid: Prefab Icon
       colorIndex: 6
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: PrefabModel Icon
+      colorIndex: 0
+      isIconRecursive: 0
+      isColorRecursive: 0
+    - iconNameOrGuid: Texture Icon
+      colorIndex: 0
       isIconRecursive: 0
       isColorRecursive: 0
   bookmarks:
