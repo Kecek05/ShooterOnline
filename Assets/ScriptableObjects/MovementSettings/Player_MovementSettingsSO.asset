@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc7d2e8148803c428730d215c05ca03, type: 3}
   m_Name: Player_MovementSettingsSO
   m_EditorClassIdentifier: KeceK.Game.ScriptableObjects::KeceK.Game.ScriptableObjects.MovementSettingsSO
-  WalkMaxSpeed: 30
-  WalkMoveSpeed: 20
+  WalkMaxSpeed: 10
+  WalkMoveSpeed: 10
   WalkAccelerationCurve:
     serializedVersion: 2
     m_Curve:
@@ -27,8 +27,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0.022122072
     - serializedVersion: 3
-      time: 0.38812068
-      value: 0.9869909
+      time: 0.27508324
+      value: 0.98058885
       inSlope: 0.04001514
       outSlope: 0.04001514
       tangentMode: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.110646464
     - serializedVersion: 3
-      time: 1
+      time: 0.8
       value: 1
       inSlope: 0
       outSlope: 0
@@ -52,21 +52,21 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -4.376604
+      outSlope: -4.376604
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
+      outWeight: 0.069381885
+    - serializedVersion: 3
+      time: 0.1
+      value: 0
+      inSlope: -13.988152
+      outSlope: -13.988152
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.049870312
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2

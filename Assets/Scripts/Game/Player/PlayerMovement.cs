@@ -71,28 +71,37 @@ namespace KeceK.Game
         private IEnumerator StopMovingCoroutine()
         {
             float currentDecelerationTime = 0f;
-            Debug.Log("Starting Stop moving coroutine");
+            _evaluatedDecelerationSpeed = 0f;
+            Vector3 startVelocity = _rigidbody.linearVelocity;
+            // Debug.Log($"Start Velocity : {startVelocity}");
             while (_canMove)
             {
                 currentDecelerationTime += Time.deltaTime;
-                _moveDirection = _orientation.forward * _inputReaderSO.MoveInput.y + _orientation.right * _inputReaderSO.MoveInput.x;
                 
                 _evaluatedDecelerationSpeed = _movementSettingsSO.WalkDecelerationCurve.Evaluate(currentDecelerationTime);
                 _evaluatedDecelerationSpeed = Mathf.Clamp(_evaluatedDecelerationSpeed, 0f, 1f);
                 
-                _movingSpeed = _evaluatedDecelerationSpeed * _movementSettingsSO.WalkMoveSpeed;
+                Vector3 stopingSpeed = startVelocity * _evaluatedDecelerationSpeed;
                 
-                // if(_rigidbody.linearVelocity.magnitude < _movementSettingsSO.WalkMaxSpeed) s
-                _rigidbody.AddForce(-(_moveDirection.normalized * _movingSpeed * Time.deltaTime), ForceMode.VelocityChange);
+                Vector3 lerpedSpeed = Vector3.Lerp(_rigidbody.linearVelocity, stopingSpeed, _evaluatedDecelerationSpeed);
+                _rigidbody.linearVelocity = new Vector3(lerpedSpeed.x, _rigidbody.linearVelocity.y, lerpedSpeed.z);
+                // Debug.Log($"Stoping: {stopingSpeed} | Eva: {_evaluatedDecelerationSpeed} | Lerp: {lerpedSpeed} | Linear: {_rigidbody.linearVelocity.magnitude}");
+
+                if (stopingSpeed.magnitude <= 0f)
+                {
+                    _rigidbody.linearVelocity = Vector3.zero;
+                    _stopMovingCoroutine = null;
+                    yield break;
+                }
                 
-                yield return null;
+                yield return new WaitForFixedUpdate();
             }
         }
 
         private IEnumerator MoveCoroutine()
         {
             float currentAccelerationTime = 0f;
-            Debug.Log("Starting moving coroutine");
+            _evaluatedAccelerationSpeed = 0f;
             while (_canMove)
             {
                 currentAccelerationTime += Time.deltaTime;
@@ -103,17 +112,21 @@ namespace KeceK.Game
                 
                 _movingSpeed = _evaluatedAccelerationSpeed * _movementSettingsSO.WalkMoveSpeed;
                 
-                // if(_rigidbody.linearVelocity.magnitude < _movementSettingsSO.WalkMaxSpeed) 
                 
-                _rigidbody.AddForce(_moveDirection.normalized * _movingSpeed * Time.deltaTime, ForceMode.VelocityChange);
+                Vector3 velocityInDirection = _moveDirection.normalized * _movingSpeed;
+                
+                _rigidbody.linearVelocity = new Vector3(velocityInDirection.x, _rigidbody.linearVelocity.y, velocityInDirection.z);
+                
 
-                if (_rigidbody.linearVelocity.magnitude >= _movementSettingsSO.WalkMaxSpeed)
+                Vector3 flatVel = new Vector3(_rigidbody.linearVelocity.x, 0f, _rigidbody.linearVelocity.z);
+
+                if(flatVel.magnitude > _movementSettingsSO.WalkMaxSpeed)
                 {
-                    Vector3 limitedVelocity = _rigidbody.linearVelocity.normalized * _movementSettingsSO.WalkMaxSpeed;
-                    _rigidbody.linearVelocity = limitedVelocity;
+                    Vector3 limitedVel = flatVel.normalized * _movementSettingsSO.WalkMaxSpeed;
+                    _rigidbody.linearVelocity = new Vector3(limitedVel.x, _rigidbody.linearVelocity.y, limitedVel.z);
                 }
                 
-                yield return null;
+                yield return new WaitForFixedUpdate();
             }
         }
 
@@ -125,29 +138,6 @@ namespace KeceK.Game
             if(_moveCoroutine != null)
                 StopCoroutine(_moveCoroutine);
         }
-
-        // private void Update()
-        // {
-        //     if (_inputReaderSO.MoveInput != Vector2.zero)
-        //     {
-        //         //Moving 
-        //         _isMoving = true;
-        //     }
-        //     else
-        //     {
-        //         _isMoving = false;
-        //     }
-        // }
-        //
-        // private void FixedUpdate()
-        // {
-        //     if (_isMoving)
-        //     {
-        //         _moveDirection = _orientation.forward * _inputReaderSO.MoveInput.y + _orientation.right * _inputReaderSO.MoveInput.x;
-        //         
-        //         _rigidbody.AddForce(_moveDirection.normalized * _movementSettingsSO.MaxSpeed * Time.deltaTime, ForceMode.Force);
-        //     }
-        // }
 
 
         //TODO Refactor Movement Code

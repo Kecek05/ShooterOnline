@@ -12,7 +12,7 @@ namespace KeceK.Game.ScriptableObjects
         [Tooltip("Always normalized between 0 and 1")]
         public AnimationCurve WalkAccelerationCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
         [Tooltip("Always normalized between 0 and 1")]
-        public AnimationCurve WalkDecelerationCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
+        public AnimationCurve WalkDecelerationCurve = AnimationCurve.EaseInOut(0, 1, 1, 0);
         
         [Title("Run Settings")]
         public float RunMaxSpeed = 15f;
