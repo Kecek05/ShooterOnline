@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using DG.Tweening;
 using KeceK.Game.ScriptableObjects;
 using KeceK.Input;
 using Sirenix.OdinInspector;
@@ -20,18 +21,23 @@ namespace KeceK.Game
 
         
         private Vector3 _moveDirection;
-        private float _evaluatedSpeed;
-        private float _currentSpeed;
+        private float _evaluatedAccelerationSpeed;
+        private float _evaluatedDecelerationSpeed;
+        private float _movingSpeed;
         
-        private bool _isMoving = false;
         
         private Coroutine _moveCoroutine;
         private Coroutine _stopMovingCoroutine;
 
         private bool _canMove = true;
         
-        private float _currentAccelerationTime = 0f;
-        private float _currentDecelerationTime = 0f;
+        //DEBUG
+        public float EvaluatedAccelerationSpeed => _evaluatedAccelerationSpeed;
+        
+        public float EvaluatedDecelerationSpeed => _evaluatedDecelerationSpeed;
+        public Vector3 MoveDirection => _moveDirection;
+        
+        public float MovingSpeed => _movingSpeed;
             
         private void OnEnable()
         {
@@ -64,24 +70,51 @@ namespace KeceK.Game
         
         private IEnumerator StopMovingCoroutine()
         {
-            Debug.Log("Stopping moving coroutine");
-            yield return null;
+            float currentDecelerationTime = 0f;
+            Debug.Log("Starting Stop moving coroutine");
+            while (_canMove)
+            {
+                currentDecelerationTime += Time.deltaTime;
+                _moveDirection = _orientation.forward * _inputReaderSO.MoveInput.y + _orientation.right * _inputReaderSO.MoveInput.x;
+                
+                _evaluatedDecelerationSpeed = _movementSettingsSO.WalkDecelerationCurve.Evaluate(currentDecelerationTime);
+                _evaluatedDecelerationSpeed = Mathf.Clamp(_evaluatedDecelerationSpeed, 0f, 1f);
+                
+                _movingSpeed = _evaluatedDecelerationSpeed * _movementSettingsSO.WalkMoveSpeed;
+                
+                // if(_rigidbody.linearVelocity.magnitude < _movementSettingsSO.WalkMaxSpeed) s
+                _rigidbody.AddForce(-(_moveDirection.normalized * _movingSpeed * Time.deltaTime), ForceMode.VelocityChange);
+                
+                yield return null;
+            }
         }
 
         private IEnumerator MoveCoroutine()
         {
-            _currentAccelerationTime = 0f;
-            
+            float currentAccelerationTime = 0f;
+            Debug.Log("Starting moving coroutine");
             while (_canMove)
             {
-                _currentAccelerationTime += Time.deltaTime;
+                currentAccelerationTime += Time.deltaTime;
                 _moveDirection = _orientation.forward * _inputReaderSO.MoveInput.y + _orientation.right * _inputReaderSO.MoveInput.x;
                 
-                _evaluatedSpeed = _movementSettingsSO.AccelerationCurve.Evaluate(_currentAccelerationTime);
+                _evaluatedAccelerationSpeed = _movementSettingsSO.WalkAccelerationCurve.Evaluate(currentAccelerationTime);
+                _evaluatedAccelerationSpeed = Mathf.Clamp(_evaluatedAccelerationSpeed, 0f, 1f);
+                
+                _movingSpeed = _evaluatedAccelerationSpeed * _movementSettingsSO.WalkMoveSpeed;
+                
+                // if(_rigidbody.linearVelocity.magnitude < _movementSettingsSO.WalkMaxSpeed) 
+                
+                _rigidbody.AddForce(_moveDirection.normalized * _movingSpeed * Time.deltaTime, ForceMode.VelocityChange);
+
+                if (_rigidbody.linearVelocity.magnitude >= _movementSettingsSO.WalkMaxSpeed)
+                {
+                    Vector3 limitedVelocity = _rigidbody.linearVelocity.normalized * _movementSettingsSO.WalkMaxSpeed;
+                    _rigidbody.linearVelocity = limitedVelocity;
+                }
                 
                 yield return null;
             }
-            Debug.Log("Starting moving coroutine");
         }
 
         private void ResetAllMovingCoroutines()

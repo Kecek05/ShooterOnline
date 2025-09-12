@@ -9,7 +9,7 @@ namespace KeceK.Input
     {
         public Vector2 MoveInput => _inputActions.Player.Move.ReadValue<Vector2>();
         public Vector2 LookInput => _inputActions.Player.Look.ReadValue<Vector2>();
-        
+
         public event Action<InputAction.CallbackContext> OnMoveInputContext;
         
         public event Action OnJumpPressed; 
