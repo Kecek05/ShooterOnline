@@ -14,7 +14,7 @@ namespace KeceK.Game
             _animator.CrossFade(IdleHash, CrossFadeDuration);
         }
         
-        public override void LateUpdateState()
+        public override void UpdateState()
         {
             _playerManager.CameraMovement.HandleCameraMovement();
         }

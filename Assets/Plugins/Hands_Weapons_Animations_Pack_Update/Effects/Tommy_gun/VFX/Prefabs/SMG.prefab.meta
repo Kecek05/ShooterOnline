@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eec7a574524ac2f469e5740040540762
+timeCreated: 1498747930
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Effects/Tommy_gun/VFX/Prefabs/SMG.prefab
+  uploadId: 772569

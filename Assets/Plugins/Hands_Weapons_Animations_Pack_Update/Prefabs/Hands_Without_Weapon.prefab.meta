@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e73d4027c247ceb449169b8b039345cc
+timeCreated: 1560630675
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Hands_Without_Weapon.prefab
+  uploadId: 772569

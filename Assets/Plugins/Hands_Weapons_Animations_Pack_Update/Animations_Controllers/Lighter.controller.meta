@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e61492974af414843ae875e28d65da3c
+timeCreated: 1560630734
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Animations_Controllers/Lighter.controller
+  uploadId: 772569

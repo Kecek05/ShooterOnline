@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3a304c229a880b943b7356cbc23c4bf7
+timeCreated: 1500113888
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Effects/Grenade_gun/VFX/Prefabs/Grenade-gun.prefab
+  uploadId: 772569

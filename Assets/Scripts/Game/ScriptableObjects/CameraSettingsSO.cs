@@ -7,8 +7,8 @@ namespace KeceK.Game.ScriptableObjects
     public class CameraSettingsSO : ScriptableObject
     {
         [Title("Sensitivity")]
-        public float AxisXMultiplier = 1f;
-        public float AxisYMultiplier = 1f;
+        public float MouseXSensitivity = 1f;
+        public float MouseYSensitivity = 1f;
         
         [Title("Angle Limits")]
         [MinMaxSlider(-90, 90, true)]

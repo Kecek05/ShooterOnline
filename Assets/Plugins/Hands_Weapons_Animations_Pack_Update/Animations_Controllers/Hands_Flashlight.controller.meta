@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ab3dcbd5394e4574180bdb9c69c32657
+timeCreated: 1553426860
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Animations_Controllers/Hands_Flashlight.controller
+  uploadId: 772569

@@ -16,4 +16,80 @@ MonoBehaviour:
   defaultEditorBehaviour: 11
   processMouseMoveInInspector: 1
   drawingConfig:
-    configs: []
+    configs:
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Editor.Tools.ExtractCurvesModifier,
+        FPSAnimationFramework.Editor
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Camera.FPSCameraAnimation,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Camera.FPSCameraController,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Camera.FPSCameraShake,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Core.FPSAnimator, FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Core.FPSAnimatorEntity,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Core.LookAt, FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.AdditiveLayer.AdditiveLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.AdsLayer.AdsLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.AttachHandLayer.AttachHandLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.BlendingLayer.BlendingLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.CollisionLayer.CollisionLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.IkLayer.IkLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.IkMotionLayer.IkMotionLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.LookLayer.LookLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.PoseOffsetLayer.PoseOffsetLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.PoseSamplerLayer.PoseSamplerLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.SwayLayer.SwayLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.TurnLayer.TurnLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Layers.ViewLayer.ViewLayerSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Playables.FPSAnimationAsset,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Recoil.RecoilPattern,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.FPSAnimationFramework.Runtime.Recoil.RecoilPatternSettings,
+        FPSAnimationFramework.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.KAnimationCore.Runtime.Core.ModifyCurve, KAnimationCore.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.KAnimationCore.Runtime.Input.UserInputConfig, KAnimationCore.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.KAnimationCore.Runtime.Rig.KVirtualElement, KAnimationCore.Runtime
+      EditorTypeName: 
+    - DrawnTypeName: KINEMATION.ProceduralRecoilAnimationSystem.Runtime.RecoilAnimation,
+        RecoilAnimation.Runtime
+      EditorTypeName: 

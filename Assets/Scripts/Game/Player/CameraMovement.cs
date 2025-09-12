@@ -1,5 +1,3 @@
-using System;
-using System.Runtime.CompilerServices;
 using KeceK.Game.ScriptableObjects;
 using KeceK.Input;
 using Sirenix.OdinInspector;
@@ -17,22 +15,23 @@ namespace KeceK.Game
         [SerializeField] [Required] private CinemachineCamera _cinemachineCamera;
 
         private float _desiredYAngle;
+        private float _mouseXRotation;
+        private float _deltaTime;
 
         public void HandleCameraMovement()
         {
             Vector2 lookInput = _inputReaderSO.LookInput;
             if (lookInput.sqrMagnitude < 0.01f) return;
             
-            float mouseXRotation = lookInput.x * _cameraSettingsSO.AxisXMultiplier;
+            _deltaTime = Time.deltaTime;
             
-            float deltaTime = Time.deltaTime;
+            _mouseXRotation = lookInput.x * _cameraSettingsSO.MouseXSensitivity * _deltaTime;
             
-            _desiredYAngle -= lookInput.y * _cameraSettingsSO.AxisYMultiplier;
+            _desiredYAngle -= lookInput.y * _cameraSettingsSO.MouseYSensitivity * _deltaTime;
             _desiredYAngle = Mathf.Clamp(_desiredYAngle, _cameraSettingsSO.MinMaxYAngle.x, _cameraSettingsSO.MinMaxYAngle.y);
             
-            transform.Rotate(0, mouseXRotation, 0);
+            transform.Rotate(0, _mouseXRotation, 0);
             _cinemachineCamera.transform.localRotation = Quaternion.Euler(_desiredYAngle, 0, 0);
-            
         }
     }
 }

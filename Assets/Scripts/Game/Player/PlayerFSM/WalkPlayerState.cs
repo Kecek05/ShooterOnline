@@ -14,14 +14,14 @@ namespace KeceK.Game
             _animator.CrossFade(WalkHash, CrossFadeDuration);
         }
 
-        public override void FixedUpdateState()
-        {
-            _playerManager.CharacterMovement.HandleMovement();
-        }
-
-        public override void LateUpdateState()
+        public override void UpdateState()
         {
             _playerManager.CameraMovement.HandleCameraMovement();
+        }
+        
+        public override void FixedUpdateState()
+        {
+            _playerManager.PlayerMovement.HandleMovement();
         }
     }
 }

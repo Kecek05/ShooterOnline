@@ -8,14 +8,14 @@ namespace KeceK.Game
     public class PlayerManager : MonoBehaviour
     {
         [Title("References")]
-        [SerializeField] [Required] CharacterMovement _characterMovement;
+        [SerializeField] [Required] PlayerMovement playerMovement;
         [SerializeField] [Required] CameraMovement _cameraMovement;
         [SerializeField] [Required] GroundCheck _groundCheck;
         [SerializeField] [Required] private Animator _animator;
         [SerializeField] [Required] private InputReaderSO _inputReaderSO;
         
         
-        public CharacterMovement CharacterMovement => _characterMovement;
+        public PlayerMovement PlayerMovement => playerMovement;
         public CameraMovement CameraMovement => _cameraMovement;
         public Animator Animator => _animator;
         

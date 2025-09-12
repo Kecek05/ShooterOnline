@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 62d080ecfa357f14ea8b214e6c4dccfa
+timeCreated: 1500115453
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Effects/HandGranade/VFX/Prefabs/HandGranade.prefab
+  uploadId: 772569

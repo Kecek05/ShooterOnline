@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee2c823a77741a4997ce3acd925980a, type: 3}
   m_Name: CameraSettingsSO
   m_EditorClassIdentifier: KeceK.Game.ScriptableObjects::KeceK.Game.ScriptableObjects.CameraSettingsSO
-  AxisXMultiplier: 0.2
-  AxisYMultiplier: 0.5
+  MouseXSensitivity: 5
+  MouseYSensitivity: 5
   MinMaxYAngle: {x: -85, y: 60}

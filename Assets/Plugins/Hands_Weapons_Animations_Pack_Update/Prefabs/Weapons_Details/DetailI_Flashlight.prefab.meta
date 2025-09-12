@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 909d2c08c227ac148bf385bb357dd6c5
+timeCreated: 1560674426
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 132915
+  packageName: Animated Hands with Weapons Pack
+  packageVersion: 1.2
+  assetPath: Assets/Hands_Weapons_Animations_Pack_Update/Prefabs/Weapons_Details/DetailI_Flashlight.prefab
+  uploadId: 772569

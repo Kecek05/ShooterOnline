@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bc7d2e8148803c428730d215c05ca03, type: 3}
   m_Name: Player_MovementSettingsSO
   m_EditorClassIdentifier: KeceK.Game.ScriptableObjects::KeceK.Game.ScriptableObjects.MovementSettingsSO
-  MaxSpeed: 10
+  MaxSpeed: 25
+  MaxRunSpeed: 15
   AccelerationCurve:
     serializedVersion: 2
     m_Curve:

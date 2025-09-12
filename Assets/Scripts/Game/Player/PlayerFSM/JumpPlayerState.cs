@@ -14,15 +14,14 @@ namespace KeceK.Game
             // _playerManager.Jump();
         }
 
-        public override void FixedUpdateState()
-        {
-            _playerManager.CharacterMovement.HandleMovement();
-            // TODO _playerManager.CharacterMovement.HandleJump();
-        }
-
-        public override void LateUpdateState()
+        public override void UpdateState()
         {
             _playerManager.CameraMovement.HandleCameraMovement();
+        }
+
+        public override void FixedUpdateState()
+        {
+            _playerManager.PlayerMovement.HandleMovement();
         }
     }
 }
