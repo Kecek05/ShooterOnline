@@ -18,6 +18,8 @@ namespace KeceK.Game
         private float _mouseXRotation;
         private float _deltaTime;
 
+        
+        //TODO Make frame independent
         public void HandleCameraMovement()
         {
             Vector2 lookInput = _inputReaderSO.LookInput;

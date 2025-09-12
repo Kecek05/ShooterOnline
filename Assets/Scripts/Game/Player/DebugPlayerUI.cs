@@ -32,6 +32,21 @@ namespace KeceK.Game
             {
                 _text3.text = $"Move Direction: {_playerMovement.MoveDirection}";
             }
+
+            if (UnityEngine.Input.GetKeyDown(KeyCode.Y))
+            {
+                Application.targetFrameRate = 60;
+            }
+            
+            if (UnityEngine.Input.GetKeyDown(KeyCode.U))
+            {
+                Application.targetFrameRate = 15;
+            }
+            
+            if (UnityEngine.Input.GetKeyDown(KeyCode.I))
+            {
+                Application.targetFrameRate = 200;
+            }
         }
     }
 }
